@@ -1,0 +1,83 @@
+// =======================================================
+// Importa o Bootstrap (o '~' indica para o Parcel buscar em node_modules)
+@import "~bootstrap/scss/bootstrap";
+
+// Importa variáveis personalizadas (seu arquivo 'variables.scss')
+@import 'variables';
+
+// =======================================================
+// Estilos globais
+body {
+  font-family: "Montserrat", serif !important;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: $color-black; // Assumindo que $color-black está definido em 'variables.scss'
+}
+
+// =======================================================
+// Seção Hero (Section 1)
+// =======================================================
+.hero {
+  height: 105vh;
+  position: relative; // necessário para o overlay ficar absoluto dentro dela
+
+  // Imagem de fundo ocupando a tela toda
+  background: url('../images/hero1.jpg') no-repeat center center;
+  background-size: cover;
+  background-attachment: scroll; // ou 'fixed' se quiser paralaxe
+  background-position: top;
+
+  // Overlay que escurece conforme scroll
+  .fade-overlay {
+    position: absolute;
+    inset: 0;          // top:0, right:0, bottom:0, left:0
+    background: #000;  // cor do overlay (preto)
+    opacity: 0;        // inicia transparente
+    pointer-events: none;
+    transition: opacity 0.3s linear; // efeito suave
+  }
+
+  // Garante que o conteúdo fique acima do overlay
+  .container,
+  .row,
+  .col-md-6 {
+    position: relative;
+    z-index: 2;
+  }
+}
+
+// =======================================================
+// Seção Treino (Section 2)
+// =======================================================
+.treino-section {
+  background: url('../images/fundo1.png') no-repeat center center;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5); // overlay escuro leve
+  }
+
+  .container {
+    position: relative;
+    z-index: 1; // conteúdo acima do ::before
+  }
+}
+
+// =======================================================
+// Botões e textos
+// =======================================================
+.botao2 {
+  text-decoration: none;
+  &:hover {
+    color: #000 !important;
+  }
+}
+
+.laranja {
+  color: $color-accent;
+}
