@@ -77,10 +77,18 @@ body {
     background: url('../images/sec2.jpg');
     background-repeat: no-repeat !important;
     background-position: center !important;
-    background-size:contain !important;
+    background-size: cover !important;
   
     // Parallax: fundo fixo (não rola junto)
     background-attachment: fixed;
+
+    @media (max-width: 767px) {
+        // Em dispositivos menores (ex.: iPhone), remover o 'fixed'
+
+        background-position: left !important;
+        background-size:cover !important;
+
+      }
   
     // Overlay
     .fade-overlay {
