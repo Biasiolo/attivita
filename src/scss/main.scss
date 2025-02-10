@@ -74,7 +74,10 @@ body {
     position: relative;
     min-height: 110vh;
     // Exemplo de imagem de fundo
-    background: url('../images/sec2.jpg') center/cover no-repeat;
+    background: url('../images/sec2.jpg');
+    background-repeat: no-repeat !important;
+    background-position: center;
+    background-size: cover;
   
     // Parallax: fundo fixo (não rola junto)
     background-attachment: fixed;
