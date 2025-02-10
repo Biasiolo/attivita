@@ -50,7 +50,7 @@ body {
 // Seção Treino (Section 2)
 // =======================================================
 .treino-section {
-    height: 110vh;
+    min-height: 115vh;
   background: url('../images/fundo1.png') no-repeat center center;
   background-size: cover;
   background-position: top;
@@ -119,7 +119,7 @@ body {
 
 
   .colaboradores-section {
-    background-color: #63754f; 
+    background-color: #62724f;
 
   
     .colab-card {
@@ -150,7 +150,7 @@ body {
   }
 
   .rodape {
-    background-color: #63754f;
+    background-color: #62724f;
     color: #000;
   }
 
