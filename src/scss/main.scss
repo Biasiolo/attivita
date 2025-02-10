@@ -50,6 +50,7 @@ body {
 // Seção Treino (Section 2)
 // =======================================================
 .treino-section {
+    height: 110vh;
   background: url('../images/fundo1.png') no-repeat center center;
   background-size: cover;
   background-position: top;
@@ -67,6 +68,91 @@ body {
     z-index: 1; // conteúdo acima do ::before
   }
 }
+
+
+.beneficios-section {
+    position: relative;
+    min-height: 110vh;
+    // Exemplo de imagem de fundo
+    background: url('../images/sec2.jpg') center/cover no-repeat;
+  
+    // Parallax: fundo fixo (não rola junto)
+    background-attachment: fixed;
+  
+    // Overlay
+    .fade-overlay {
+      position: absolute;
+      inset: 0;           /* top:0; right:0; bottom:0; left:0 */
+      background: #000;   /* cor preta ou outro tom */
+      opacity: 0;         /* começa transparente */
+      transition: opacity 0.3s linear;
+      pointer-events: none;
+      z-index: 1;         /* acima do background, mas abaixo do texto */
+    }
+  
+    .container {
+      position: relative;
+      z-index: 2; // conteúdo acima da overlay
+    }
+  }
+
+  .card {
+    background: rgba(255, 255, 255, 0.2);           // Cor do "vidro" (bem transparente)
+    border: 1px solid rgba(255, 255, 255, 0.2);     // Borda sutil
+    backdrop-filter: blur(12px);                     // Desfoca o que está atrás
+    -webkit-backdrop-filter: blur(8px);             // Suporte Safari
+    border-radius: 12px;                            // Cantos arredondados, opcional
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);         // Sombra suave, opcional
+    padding: 1.5rem;                                // Espaçamento interno
+    transition: transform 0.3seg ease-in-out;
+    // Se o texto ficar difícil de ler, você pode reforçar o contraste
+    color: #fff;  
+
+    &:hover {
+        transform: scale(1.03);
+    }
+  }
+
+  .card-body {
+    text-align: center;
+  }
+
+
+  .colaboradores-section {
+    background-color: #63754f; 
+
+  
+    .colab-card {
+      // Ajustes no container do colaborador
+      width: 240px; // Já definimos inline, mas pode ficar aqui
+      height: 240px;
+      margin: auto;
+  
+      img {
+        width: 240px;
+        height: 240px;
+        object-fit: cover;
+        border-radius: 50%;
+        display: block;
+      }
+      
+      .overlay {
+        opacity: 0;
+        background: rgba(0, 0, 0, 0.6);
+        transition: opacity 0.3s;
+        border-radius: 50%;
+      }
+  
+      &:hover .overlay {
+        opacity: 1; // Ao passar o mouse, aparece
+      }
+    }
+  }
+
+  .rodape {
+    background-color: #63754f;
+    color: #000;
+  }
 
 // =======================================================
 // Botões e textos

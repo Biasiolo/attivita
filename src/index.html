@@ -44,13 +44,13 @@
         </button>
         <!-- Menu -->
         <div class="collapse navbar-collapse justify-content-end me-3" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item px-1 text-center">
+          <ul class="navbar-nav justify-content-center align-items-center">
+            <li class="nav-item px-1 text-center ">
               <a
-                class="botao2 btn w-100 btn-outline-light border fw-bold nav-link text-light"
+                class="botao2 btn w-100 btn-outline-light border fw-bold nav-link text-light "
                 href="#vendas"
               >
-                Agende uma Aula
+                Agende sua Aula
               </a>
             </li>
           </ul>
@@ -109,9 +109,10 @@
   <!-- SEÇÃO 2 (Treino) -->
   <section
     id="section2"
-    class="treino-section d-flex align-items-center justify-content-center text-white min-vh-100"
+    class="treino-section d-flex align-items-center justify-content-center text-white"
   >
-    <div class="container text-center align-items-center justify-content-center">
+    <div class="container text-center align-items-center justify-content-center mt-5 pb-5">
+        
       <!-- TÍTULO -->
       <h2 class="display-3 fw-bold mb-5 p-5">
         Mantenha-se sempre <br class="d-md-none" />
@@ -121,7 +122,7 @@
       <!-- DUAS COLUNAS DE TEXTO -->
       <div class="row mb-5 gap-4 justify-content-center">
         <!-- Coluna 1 -->
-        <div class="col-md-4 mb-3 px-4 fs-4">
+        <div class="col-md-4 mb-1 px-4 fs-4">
           <p>
             O <strong>Treinamento Físico Integrado</strong> é um treino eficiente que trabalha diversas áreas da saúde a fim de promover <strong>maior potencial em sua performance física.</strong> Attività possui a fórmula ideal para atingir os inúmeros benefícios proporcionados por esta prática, para que você esteja sempre pronto, em sua melhor forma.
           </p>
@@ -132,18 +133,551 @@
             Baseado em <strong>altos padrões de treinamento</strong> reconhecidos mundialmente, buscamos a cada treino superar nossos limites e fazer com que sua <strong>performance evolua</strong> em todos aspectos que englobam a sua saúde. Nossa maior missão é ajudar a todos inscritos desempenharem <strong>o seu melhor, em tudo que fazem.</strong>
           </p>
         </div>
-      </div>
-
-      <!-- BOTÃO MAIOR -->
-      <a href="#" class="p-0 m-0 botao2">
+        <!-- BOTÃO MAIOR -->
+      <a href="#" class="pb-5 m-0 botao2">
         <div
-          class="btn btn-outline-light fs-3 fw-bold w-75 py-5 mx-auto mt-4 d-flex justify-content-center align-items-center"
+          class="btn btn-outline-light fs-3 fw-bold w-75 mx-auto my-5 py-4 d-flex justify-content-center align-items-center"
         >
           AULA EXPERIMENTAL
         </div>
       </a>
+      </div>
+      
+
+      
     </div>
   </section>
+
+  <section
+  id="beneficios"
+  class="beneficios-section position-relative text-white py-4"
+>
+  <!-- Overlay para parallax e fade -->
+  <div class="fade-overlay"></div>
+
+  <div class="container position-relative py-5 ">
+    <!-- Barra, título, subtítulo e texto -->
+    <div class="row justify-content-center my-3">
+      <div class="col-lg-8 text-center">
+        <!-- Barra horizontal no topo -->
+        <div
+          class="mx-auto my-5"
+          style="width: 50%; height: 16px; background-color: #e84032;"
+        ></div>
+
+        <!-- Título -->
+        <h2 class="display-3 fw-bold mb-3 text-center">
+          Não é sobre ser Fitness<span class="laranja">.</span>
+        </h2>
+
+        <!-- Subtítulo -->
+        <h3 class="display-5 mb-3">
+          É sobre estar vivo.
+        </h3>
+
+        <!-- Texto explicativo -->
+        <p class="lead fs-3 mb-5">
+          Treinamento integrado em todas as áreas que fazem de você vivo.
+        </p>
+      </div>
+    </div>
+
+    <!-- Cards (9 itens, 3 por linha em desktops) -->
+    <div class="row justify-content-center ">
+      <!-- Card 1 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card h-100 bg-transparent border-0 text-start text-white">
+          <!-- "Imagem" do card -->
+          <div class="card-img-top text-center mb-3">
+            <img
+              src="./images/icone2.png"
+              alt="Avaliação Nutricional"
+              style="max-width: 80px;"
+            />
+          </div>
+          <div class="card-body">
+            <h4 class="card-title fs-5 fw-bold">AVALIAÇÃO NUTRICIONAL</h4>
+            <p class="card-text">
+              Acompanhamento individualizado, que tem como objetivo
+              avaliar o estado nutricional do aluno a fim de definir a
+              dieta mais eficiente para seu propósito.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card h-100 bg-transparent border-0 text-start text-white">
+          <div class="card-img-top text-center mb-3">
+            <img
+              src="./images/icone1.png"
+              alt="Fisioterapia Esportiva"
+              style="max-width: 80px;"
+            />
+          </div>
+          <div class="card-body">
+            <h4 class="card-title fs-5 fw-bold">FISIOTERAPIA ESPORTIVA</h4>
+            <p class="card-text">
+              Não basta treinar, é preciso cuidar do corpo para alcançar
+              o melhor desempenho.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card h-100 bg-transparent border-0 text-start text-white">
+          <div class="card-img-top text-center mb-3">
+            <img
+              src="./images/icone3.png"
+              alt="Avaliação Postural"
+              style="max-width: 80px;"
+            />
+          </div>
+          <div class="card-body">
+            <h4 class="card-title fs-5 fw-bold">AVALIAÇÃO POSTURAL</h4>
+            <p class="card-text">
+              Em qualquer atividade física a boa postura é fundamental
+              para prevenir dores e melhorar a performance.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card h-100 bg-transparent border-0 text-start text-white">
+          <div class="card-img-top text-center mb-3">
+            <img
+              src="./images/icone4.png"
+              alt="Fisiologia do Exercício"
+              style="max-width: 80px;"
+            />
+          </div>
+          <div class="card-body">
+            <h4 class="card-title fs-5 fw-bold">FISIOLOGIA DO EXERCÍCIO</h4>
+            <p class="card-text">
+              Atividades físicas criadas e personalizadas com as
+              tecnologias mais modernas, garantindo o seu rendimento
+              máximo.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card h-100 bg-transparent border-0 text-start text-white">
+          <div class="card-img-top text-center mb-3">
+            <img
+              src="./images/icone5.png"
+              alt="Treinamento Periodizado"
+              style="max-width: 80px;"
+            />
+          </div>
+          <div class="card-body">
+            <h4 class="card-title fs-5 fw-bold">TREINAMENTO PERIODIZADO</h4>
+            <p class="card-text">
+              Os estímulos certos em intervalos planejados rendem muito
+              mais ganhos do que um exercício sem programação.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card h-100 bg-transparent border-0 text-start text-white">
+          <div class="card-img-top text-center mb-3">
+            <img
+              src="./images/icone6.png"
+              alt="Treino Indoor"
+              style="max-width: 80px;"
+            />
+          </div>
+          <div class="card-body">
+            <h4 class="card-title fs-5 fw-bold">TREINO INDOOR</h4>
+            <p class="card-text">
+              Todo o conforto e segurança de um espaço desenvolvido
+              especialmente para isso, com aparelhos de última geração.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 7 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card h-100 bg-transparent border-0 text-start text-white">
+          <div class="card-img-top text-center mb-3">
+            <img
+              src="./images/icone7.png"
+              alt="Treinamento Funcional"
+              style="max-width: 80px;"
+            />
+          </div>
+          <div class="card-body">
+            <h4 class="card-title fs-5 fw-bold">TREINAMENTO FUNCIONAL</h4>
+            <p class="card-text">
+              Esse treino prepara o corpo para funções primárias 
+              relacionadas às ações do dia a dia e promove aprimoramento 
+              de atletas que visam aperfeiçoar movimentos específicos.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card h-100 bg-transparent border-0 text-start text-white">
+          <div class="card-img-top text-center mb-3">
+            <img
+              src="./images/icone8.png"
+              alt="Treinamento Físico na Areia"
+              style="max-width: 80px;"
+            />
+          </div>
+          <div class="card-body">
+            <h4 class="card-title fs-5 fw-bold">
+              TREINAMENTO FÍSICO NA AREIA
+            </h4>
+            <p class="card-text">
+              Os exercícios funcionais de alta intensidade já são um
+              fenômeno mundial, e a Attività combina a alta energia desse
+              esporte com a nossa alta qualidade.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 9 -->
+      <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+        <div class="card h-100 bg-transparent border-0 text-start text-white">
+          <div class="card-img-top text-center mb-3">
+            <img
+              src="./images/icone9.png"
+              alt="Spinning"
+              style="max-width: 80px;"
+            />
+          </div>
+          <div class="card-body">
+            <h4 class="card-title fs-5 fw-bold">SPINNING</h4>
+            <p class="card-text">
+              Alcance todos os seus objetivos de maneira mais rápida,
+              consistente e com toda a diversão e agito que não podem
+              faltar em uma aula de Spinning.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div> <!-- row -->
+  </div> <!-- container -->
+</section>
+
+
+<section id="colaboradores" class="colaboradores-section text-white py-5">
+    <div class="container mt-5">
+      <!-- Título e Subtítulo -->
+      <div class="row text-center my-5">
+        <div class="col px-3">
+          <h2 class="display-4 my-4 fw-bold">
+            DEDICAÇÃO PERSONALIZADA<span class="laranja">.</span>
+          </h2>
+          <p class="lead fs-3 px-5">
+            Uma equipe especializada que trabalha em conexão, unindo dados
+            para analisar e agir de acordo com o seu objetivo.
+          </p>
+        </div>
+      </div>
+  
+      <!-- PRIMEIRA LINHA (3 fotos) -->
+      <div class="row mb-4">
+        <!-- Foto 1 -->
+        <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
+          <div
+            class="colab-card position-relative mx-auto"
+            style="width: 240px;"
+          >
+            <img
+              src="./images/professor1.png"
+              alt="Thiago Galera"
+              class="img-fluid rounded-circle"
+            />
+            <div
+              class="overlay position-absolute top-0 start-0 w-100 h-100
+                     d-flex align-items-center justify-content-center"
+            >
+              <div class="text-center">
+                <h5 class="mb-0">Thiago Galera</h5>
+                <p>Personal Trainer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Foto 2 -->
+        <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
+          <div
+            class="colab-card position-relative mx-auto"
+            style="width: 240px;"
+          >
+            <img
+              src="./images/foto1.png"
+              alt="Lívia"
+              class="img-fluid rounded-circle"
+            />
+            <div
+              class="overlay position-absolute top-0 start-0 w-100 h-100
+                     d-flex align-items-center justify-content-center"
+            >
+              <div class="text-center">
+                <h5 class="mb-0">Lívia</h5>
+                <p>Fisioterapeuta</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Foto 3 -->
+        <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
+          <div
+            class="colab-card position-relative mx-auto"
+            style="width: 240px;"
+          >
+            <img
+              src="./images/professor2.png"
+              alt="Sicrano"
+              class="img-fluid rounded-circle"
+            />
+            <div
+              class="overlay position-absolute top-0 start-0 w-100 h-100
+                     d-flex align-items-center justify-content-center"
+            >
+              <div class="text-center">
+                <h5 class="mb-0">Sicrano</h5>
+                <p>Fisioterapeuta</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- /row -->
+  
+      <!-- SEGUNDA LINHA (3 fotos) -->
+      <div class="row mb-4">
+        <!-- Foto 4 -->
+        <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
+          <div
+            class="colab-card position-relative mx-auto"
+            style="width: 240px;"
+          >
+            <img
+              src="./images/professor3.png"
+              alt="Letícia"
+              class="img-fluid rounded-circle"
+            />
+            <div
+              class="overlay position-absolute top-0 start-0 w-100 h-100
+                     d-flex align-items-center justify-content-center"
+            >
+              <div class="text-center">
+                <h5 class="mb-0">Letícia</h5>
+                <p>Instrutora</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Foto 5 -->
+        <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
+          <div
+            class="colab-card position-relative mx-auto"
+            style="width: 240px;"
+          >
+            <img
+              src="./images/professor4.png"
+              alt="Paula"
+              class="img-fluid rounded-circle"
+            />
+            <div
+              class="overlay position-absolute top-0 start-0 w-100 h-100
+                     d-flex align-items-center justify-content-center"
+            >
+              <div class="text-center">
+                <h5 class="mb-0">Paula</h5>
+                <p>Instrutora</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Foto 6 -->
+        <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
+          <div
+            class="colab-card position-relative mx-auto"
+            style="width: 240px;"
+          >
+            <img
+              src="./images/professor5.png"
+              alt="Julio"
+              class="img-fluid rounded-circle"
+            />
+            <div
+              class="overlay position-absolute top-0 start-0 w-100 h-100
+                     d-flex align-items-center justify-content-center"
+            >
+              <div class="text-center">
+                <h5 class="mb-0">Julio</h5>
+                <p>Coach</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- /row -->
+  
+      <!-- TERCEIRA LINHA (3 fotos) -->
+      <div class="row mb-4">
+        <!-- Foto 7 -->
+        <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
+          <div
+            class="colab-card position-relative mx-auto"
+            style="width: 240px;"
+          >
+            <img
+              src="./images/professor6.png"
+              alt="Caio"
+              class="img-fluid rounded-circle"
+            />
+            <div
+              class="overlay position-absolute top-0 start-0 w-100 h-100
+                     d-flex align-items-center justify-content-center"
+            >
+              <div class="text-center">
+                <h5 class="mb-0">Caio</h5>
+                <p>Professor Cross</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Foto 8 -->
+        <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
+          <div
+            class="colab-card position-relative mx-auto"
+            style="width: 240px;"
+          >
+            <img
+              src="./images/foto1.png"
+              alt="Bianca"
+              class="img-fluid rounded-circle"
+            />
+            <div
+              class="overlay position-absolute top-0 start-0 w-100 h-100
+                     d-flex align-items-center justify-content-center"
+            >
+              <div class="text-center">
+                <h5 class="mb-0">Bianca</h5>
+                <p>Fisiologista</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Foto 9 -->
+        <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
+          <div
+            class="colab-card position-relative mx-auto"
+            style="width: 240px;"
+          >
+            <img
+              src="./images/foto1.png"
+              alt="Gustavo"
+              class="img-fluid rounded-circle"
+            />
+            <div
+              class="overlay position-absolute top-0 start-0 w-100 h-100
+                     d-flex align-items-center justify-content-center"
+            >
+              <div class="text-center">
+                <h5 class="mb-0">Gustavo</h5>
+                <p>Personal Trainer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div><!-- /row -->
+  
+    </div><!-- /container -->
+  </section>
+  
+  <section id="contato" class="contato-section text-white py-5">
+    <div class="container text-center my-3">
+  
+      <!-- Imagem de 80px -->
+      <img 
+        src="./images/logobottom.png" 
+        alt="Contato" 
+        height="80" 
+        class="mt-3"
+      />
+      <div
+      class="mb-5 mx-auto"
+      style="width: 50%; height: 16px; background-color: #e84032;"
+    ></div>
+      <!-- Título -->
+      <h2 class="display-5 fw-bold my-5">
+        ESTAMOS AQUI PARA FAZER VOCÊ MELHOR<span class="laranja">.</span>
+      </h2>
+  
+      <!-- Texto de contato (telefone e endereço) -->
+      <p class="lead fs-4 mb-4">
+        Entre em contato ou visite:<br /><strong>(16) 99606-0555</strong><br />
+        Endereço: R. Napoleão Selmi Dei, 1363 - Vila Harmonia, Araraquara - SP, 14802-500
+      </p>
+  
+      <!-- Botão -->
+      <a href="#contato">
+        <div class="btn btn-outline-light fw-bold w-50 my-4">
+          Fale Conosco
+        </div>
+      </a>
+  
+      <!-- Mapa incorporado (Google Maps) -->
+      <div class="col-12 col-md-6 offset-md-3 my-4">
+        <!-- Mantém a proporção 16:9 -->
+        <div class="ratio ratio-16x9 rounded">
+          <iframe
+            class="rounded"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.043498836634!2d-48.18724828453147!3d-21.774282985604476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b86cabca159cd7%3A0x4eb70c4be220e316!2sR.%20Napole%C3%A3o%20Selmi%20Dei%2C%201363%20-%20Vila%20Harmonia%2C%20Araraquara%20-%20SP%2C%2014802-500!5e0!3m2!1spt-BR!2sbr!4v1687999999999!5m2!1spt-BR!2sbr"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+  
+
+  <footer class="rodape text-center py-3">
+    <div class="container">
+      <p class="mb-0">
+        Attività &copy; 2025. Todos os direitos reservados. 
+        Desenvolvido por
+        <a 
+          href="https://github.com/Biasiolo" 
+          target="_blank" 
+          class="text-dark text-decoration-underline"
+        >
+          Biasiolo
+        </a>
+      </p>
+    </div>
+  </footer>
+  
+
 
   <!-- jQuery (CDN) -->
   <script
