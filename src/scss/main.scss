@@ -76,8 +76,8 @@ body {
     // Exemplo de imagem de fundo
     background: url('../images/sec2.jpg');
     background-repeat: no-repeat !important;
-    background-position: center;
-    background-size: cover;
+    background-position: center !important;
+    background-size:contain !important;
   
     // Parallax: fundo fixo (não rola junto)
     background-attachment: fixed;
