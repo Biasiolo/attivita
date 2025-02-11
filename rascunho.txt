@@ -1,0 +1,46 @@
+<!-- Foto 6 -->
+        <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
+          <div
+            class="colab-card position-relative mx-auto"
+          >
+            <img
+              src="./images/professor5.png"
+              alt="Julio"
+              class="img-fluid rounded-circle"
+            />
+            <div
+              class="overlay position-absolute top-0 start-0 w-100 h-100
+                     d-flex align-items-center justify-content-center"
+            >
+              <div class="text-center">
+                <h5 class="mb-0">Julio</h5>
+                <p>Coach</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- /row -->
+  
+      <!-- TERCEIRA LINHA (3 fotos) -->
+      <div class="row mb-4">
+        <!-- Foto 7 -->
+        <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
+          <div
+            class="colab-card position-relative mx-auto"
+          >
+            <img
+              src="./images/professor6.png"
+              alt="Caio"
+              class="img-fluid rounded-circle"
+            />
+            <div
+              class="overlay position-absolute top-0 start-0 w-100 h-100
+                     d-flex align-items-center justify-content-center"
+            >
+              <div class="text-center">
+                <h5 class="mb-0">Caio</h5>
+                <p>Professor Cross</p>
+              </div>
+            </div>
+          </div>
+        </div>

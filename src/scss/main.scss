@@ -135,13 +135,13 @@ body {
   
     .colab-card {
       // Ajustes no container do colaborador
-      width: 240px; // Já definimos inline, mas pode ficar aqui
-      height: 240px;
+      width: 250px; // Já definimos inline, mas pode ficar aqui
+      height: 250px;
       margin: auto;
   
       img {
-        width: 240px;
-        height: 240px;
+        width: 250px;
+        height: 250px;
         object-fit: cover;
         border-radius: 50%;
         display: block;
