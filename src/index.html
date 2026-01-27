@@ -63,7 +63,7 @@
     !function (f, b, e, v, n, t, s) {
       if (f.fbq) return; n = f.fbq = function () {
         n.callMethod ?
-        n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
       };
       if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
       n.queue = []; t = b.createElement(e); t.async = !0;
@@ -102,7 +102,7 @@
               <a class="botao2 btn w-100 btn-outline-light border fw-bold nav-link text-light "
                 href="https://api.whatsapp.com/send?phone=5516997764269&text=Olá!%20Quero%20agendar%20uma%20aula."
                 target="_blank">
-                Agende sua Aula
+                Agende sua Visita
               </a>
             </li>
           </ul>
@@ -190,7 +190,7 @@
         target="_blank" class="pb-5 botao2">
         <div
           class="btn btn-outline-light fs-3 fw-bold w-75 mx-auto mb-5 py-4 d-flex justify-content-center align-items-center">
-          AULA EXPERIMENTAL
+          ENTRE EM CONTATO E AGENDE UMA VISITA
         </div>
       </a>
 
@@ -228,39 +228,7 @@
 
       <!-- Cards (9 itens, 3 por linha em desktops) -->
       <div class="row justify-content-center ">
-        <!-- Card 1 -->
-        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-          <div class="card h-100 bg-transparent border-0 text-start text-white">
-            <!-- "Imagem" do card -->
-            <div class="card-img-top text-center mb-3">
-              <img src="./images/icone2.png" alt="Avaliação Nutricional" style="max-width: 80px;" />
-            </div>
-            <div class="card-body">
-              <h4 class="card-title fs-5 fw-bold">AVALIAÇÃO NUTRICIONAL</h4>
-              <p class="card-text">
-                Acompanhamento individualizado, que tem como objetivo
-                avaliar o estado nutricional do aluno a fim de definir a
-                dieta mais eficiente para seu propósito.
-              </p>
-            </div>
-          </div>
-        </div>
 
-        <!-- Card 2 -->
-        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-          <div class="card h-100 bg-transparent border-0 text-start text-white">
-            <div class="card-img-top text-center mb-3">
-              <img src="./images/icone1.png" alt="Fisioterapia Esportiva" style="max-width: 80px;" />
-            </div>
-            <div class="card-body">
-              <h4 class="card-title fs-5 fw-bold">FISIOTERAPIA ESPORTIVA</h4>
-              <p class="card-text">
-                Não basta treinar, é preciso cuidar do corpo para alcançar
-                o melhor desempenho.
-              </p>
-            </div>
-          </div>
-        </div>
 
         <!-- Card 3 -->
         <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
@@ -334,7 +302,7 @@
               <img src="./images/icone7.png" alt="Treinamento Funcional" style="max-width: 80px;" />
             </div>
             <div class="card-body">
-              <h4 class="card-title fs-5 fw-bold">TREINAMENTO FUNCIONAL</h4>
+              <h4 class="card-title fs-5 fw-bold">TREINAMENTO FÍSICO FUNCIONAL</h4>
               <p class="card-text">
                 Esse treino prepara o corpo para funções primárias
                 relacionadas às ações do dia a dia e promove aprimoramento
@@ -344,24 +312,7 @@
           </div>
         </div>
 
-        <!-- Card 8 -->
-        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
-          <div class="card h-100 bg-transparent border-0 text-start text-white">
-            <div class="card-img-top text-center mb-3">
-              <img src="./images/icone8.png" alt="Treinamento Físico na Areia" style="max-width: 80px;" />
-            </div>
-            <div class="card-body">
-              <h4 class="card-title fs-5 fw-bold">
-                TREINAMENTO FÍSICO NA AREIA
-              </h4>
-              <p class="card-text">
-                Os exercícios funcionais de alta intensidade já são um
-                fenômeno mundial, e a Attività combina a alta energia desse
-                esporte com a nossa alta qualidade.
-              </p>
-            </div>
-          </div>
-        </div>
+
 
         <!-- Card 9 -->
         <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
@@ -385,6 +336,7 @@
 
   <section id="colaboradores" class="colaboradores-section text-white py-5">
     <div class="container mt-5">
+
       <!-- Título e Subtítulo -->
       <div class="row text-center my-5">
         <div class="col px-3">
@@ -398,106 +350,42 @@
         </div>
       </div>
 
-      <div class="my-5">
-        <!-- PRIMEIRA LINHA (3 fotos) -->
-        <div class="row mb-4">
-          <!-- Foto 1 -->
-          <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
-            <div class="colab-card position-relative mx-auto">
-              <img src="./images/professor1.png" alt="Thiago" class="img-fluid rounded-circle" />
-              <div class="overlay position-absolute top-0 start-0 w-100 h-100
-                     d-flex align-items-center justify-content-center">
-                <div class="text-center">
-                  <h5 class="mb-0">Thiago</h5>
-                  <p>Personal Trainer</p>
-                </div>
+      <!-- Fotos -->
+      <div class="row justify-content-center my-5">
+
+        <!-- Foto 1 -->
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4 d-flex justify-content-center">
+          <div class="colab-card position-relative">
+            <img src="./images/professor1.png" alt="Thiago" class="img-fluid rounded-circle" />
+            <div class="overlay position-absolute top-0 start-0 w-100 h-100
+               d-flex align-items-center justify-content-center">
+              <div class="text-center">
+                <h5 class="mb-0">Thiago</h5>
+                <p>Personal Trainer</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- Foto 3 -->
-          <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
-            <div class="colab-card position-relative mx-auto">
-              <img src="./images/professor2.png" alt="Amarildo" class="img-fluid rounded-circle" />
-              <div class="overlay position-absolute top-0 start-0 w-100 h-100
-                     d-flex align-items-center justify-content-center">
-                <div class="text-center">
-                  <h5 class="mb-0">Amarildo</h5>
-                  <p>Personal Trainer</p>
-                </div>
+        <!-- Foto 2 -->
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4 d-flex justify-content-center">
+          <div class="colab-card position-relative">
+            <img src="./images/professor2.png" alt="Amarildo" class="img-fluid rounded-circle" />
+            <div class="overlay position-absolute top-0 start-0 w-100 h-100
+               d-flex align-items-center justify-content-center">
+              <div class="text-center">
+                <h5 class="mb-0">Amarildo</h5>
+                <p>Personal Trainer</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <!-- Foto 2 -->
-          <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
-            <div class="colab-card position-relative mx-auto">
-              <img src="./images/alex3.png" alt="Alex" class="img-fluid rounded-circle" />
-              <div class="overlay position-absolute top-0 start-0 w-100 h-100
-                     d-flex align-items-center justify-content-center">
-                <div class="text-center">
-                  <h5 class="mb-0">Alex</h5>
-                  <p>Personal Trainer</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-        </div> <!-- /row -->
-
-        <!-- SEGUNDA LINHA (3 fotos) -->
-        <div class="row mb-4">
-          <!-- Foto 4 -->
-          <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
-            <div class="colab-card position-relative mx-auto">
-              <img src="./images/professor3.png" alt="Fábio" class="img-fluid rounded-circle" />
-              <div class="overlay position-absolute top-0 start-0 w-100 h-100
-                     d-flex align-items-center justify-content-center">
-                <div class="text-center">
-                  <h5 class="mb-0">Fábio</h5>
-                  <p>Fisioterapeuta</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Foto 5 -->
-          <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
-            <div class="colab-card position-relative mx-auto">
-              <img src="./images/professor4.png" alt="Tales" class="img-fluid rounded-circle" />
-              <div class="overlay position-absolute top-0 start-0 w-100 h-100
-                     d-flex align-items-center justify-content-center">
-                <div class="text-center">
-                  <h5 class="mb-0">Tales</h5>
-                  <p>Nutricionista</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
-          <!-- Foto 8 -->
-          <div class="col-lg-4 col-md-4 col-sm-12 mb-4">
-            <div class="colab-card position-relative mx-auto">
-              <img src="./images/foto1.png" alt="Livia" class="img-fluid rounded-circle" />
-              <div class="overlay position-absolute top-0 start-0 w-100 h-100
-                     d-flex align-items-center justify-content-center">
-                <div class="text-center">
-                  <h5 class="mb-0">Lívia</h5>
-                  <p>Fisioterapeuta</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-        </div><!-- /row -->
       </div>
 
-    </div><!-- /container -->
+    </div>
   </section>
+
 
   <section id="contato" class="contato-section text-white py-5">
     <div class="container text-center my-3">
@@ -513,7 +401,7 @@
       <!-- Texto de contato (telefone e endereço) -->
       <p class="lead fs-4 mb-4">
         Entre em contato ou visite:<br /><strong>(16) 99776-4269</strong><br />
-        Endereço: R. Napoleão Selmi Dei, 1363 - Vila Harmonia, Araraquara - SP, 14802-500
+        Endereço: Avenida Benito Barbieri, 1160 - Vila Harmonia, Araraquara - SP, 14802-570
       </p>
 
       <!-- Botão -->
@@ -529,8 +417,9 @@
         <!-- Mantém a proporção 16:9 -->
         <div class="ratio ratio-16x9 rounded">
           <iframe class="rounded"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3683.043498836634!2d-48.18724828453147!3d-21.774282985604476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b86cabca159cd7%3A0x4eb70c4be220e316!2sR.%20Napole%C3%A3o%20Selmi%20Dei%2C%201363%20-%20Vila%20Harmonia%2C%20Araraquara%20-%20SP%2C%2014802-500!5e0!3m2!1spt-BR!2sbr!4v1687999999999!5m2!1spt-BR!2sbr"
-            style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            src="https://www.google.com/maps?q=Avenida+Benito+Barbieri,+1160,+Araraquara,+SP,+14802-570&output=embed"
+            style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
         </div>
       </div>
 
